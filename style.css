@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.frontpage-bg {
+  background-image: url(img/front-page.jpeg);
+  height: 740px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.front-page-nav {
+  background-color: black;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.front-page-btn {
+  background-color: transparent;
+  padding-top: 400px;
+}
+
+.port-btn {
+  font-weight: bold;
+}
+
+.port-btn-div {
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  color: white;
+  text-align: center;
+  opacity: 0.7;
+}

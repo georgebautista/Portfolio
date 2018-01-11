@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(image6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container-header {
+  background-color: white;
+}
+
+.nav-list:hover {
+  background-color: green;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: green;
+}
+
+
+.jumbotron {
+  background-color:transparent;
+
+}
+
+.jumbotron .img-responsive {
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.second-body {
+  padding: 0px;
+  background-color: transparent;
+}
+.about-me-msg {
+  background-color: transparent;
+  height: 300px;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.message-one {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.strengths {
+  text-align: center;
+  color: white;
+}
+
+.strengths-bar {
+  background-color: gray;
+  margin-top: 20px;
+}
+
+.button-one {
+text-align: center;
+margin-top: -12px;
+}
+
+.hard {
+  text-align: center;
+  margin-top: -50px;
+}
+
+.button-two {
+text-align: center;
+margin-top: -12px;
+}
+
+.minimal {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.button-three {
+text-align: center;
+margin-top: -12px;
+}
+
+.team {
+  text-align: center;
+  margin-top: -50px;
+}
+/*slideshow*/
+
+.slideshow-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.slide-one {
+  background-size: cover;
+  position: absolute;
+}
+
+/*slideshow2*/
+.text {
+  text-align: center;
+}
+
+.left
+
+/*last-body*/
+.last-container {
+  padding-top: 60px;
+}

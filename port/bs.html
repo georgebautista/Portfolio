@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<!-- jQuery -->
+  	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  	crossorigin="anonymous"></script>
+  	<!-- Latest compiled and minified JavaScript -->
+  	<!-- Latest compiled and minified JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body>
+
+    <!--For Navigation Bar-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid container-header">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" type="button" name="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+            <a class="navbar-brand george active" href="../index.html">DEV</a>
+            <h6><strong>FOCUSED ON CAREER GROWTH</strong> </h6>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+            <form class="navbar-form navbar-right">
+      <div class="form-group">
+            <input class="form-control" type="text" name="search" placeholder="Search...">
+      </div>
+            <button class="btn btn-default" type="submit" name="button">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+            <li class="active"> <a href="bs.html">Home</a> </li>
+            <li class="nav-list"> <a href="#about">About Me</a> </li>
+            <li class="nav-list"> <a href="#contact">Contact</a> </li>
+            <li class="dropdown nav-list">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span>&nbsp;Browse</a>
+                <ul class="dropdown-menu">
+                      <li class="nav-list"><a href="#btn-minimal">Gallery</a></li>
+                      <li class="nav-list"><a href="#str-div">Strengths</a></li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+
+
+
+
+<!--For Image Banner-->
+        <div class="strengths-bar" >
+            <h3 class="strengths">About Me</h3>
+        </div>
+        <div class="bannner-container" id="banner-container">
+        <div class="jumbotron bg-header">
+            <img class="img-responsive" id="header-one" src="body1.jpg" alt="">
+        </div>
+        </div>
+
+        <div class="container">
+            <img  class="img-responsive" src="ab.jpg" alt="">
+        </div>
+
+<!-- For Parallax -->
+        <div class="parallax" style="position:absolute;" id="about">
+        </div>
+<!--for image text slider -->
+        <div class="container">
+        <div class="jumbotron" >
+        <div class="container " >
+        <div class="jumbotron">
+        <div class="carousel slide" id="slide-text" data-ride="false">
+            <ol class="carousel-indicators">
+            <li class="active" data-target="#slide-text" data-slide-to="0"></li>
+            <li data-target="#slide-text" data-slide-to="1"></li>
+            <li data-target="#slide-text" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+        <div class="item active">
+              <img src="image1.png" alt="" style="opacity:0">
+              <div class="carousel-caption caption-text">
+              <h2 class="slide-msg">A guy who wants to create awesome things and designs."</h2>
+          </div>
+          </div>
+          <div class="item ">
+              <img src="image1.png" alt="" style="opacity:0">
+          <div class="carousel-caption caption-text">
+              <h2 class="slide-msg">"I chose this path because it's challenging,
+              stressful in a good way."</h2>
+          </div>
+          </div>
+          <div class="item">
+              <img src="image1.png" alt="" style="opacity:0">
+          <div class="carousel-caption caption-text">
+              <h2 class="slide-msg">"A competetive guy that wants an opportunity someday."</h2>
+          </div>
+          </div>
+          </div>
+              <a  class="left carousel-control" href="#slide-text" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a  class="right carousel-control" href="#slide-text" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+          <div id="str-div">
+
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+
+
+
+
+<!-- For Strenghts -->
+          <div class="container">
+          <div class="jumbotron">
+          <div class="strengths-bar">
+            <img  class="img-responsive" src="str.jpg" alt="">
+          </div>
+          <div class="row">
+          <div class="col-xs-12 col-sm-4  octagon-one" id="octagon1">
+          <div class="button-one">
+            <button class="btn btn-hard" id="btn-hard" role=button  type="button" name="button" onmouseover="hardWorking()" onmouseout="hardWorking()">HARDWORKING</button>
+          </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 octagon-two" id="octagon2">
+          <div class="button-two">
+            <button class="btn btn-minimal" id="btn-minimal" role=button  type="button" name="button" onmouseover="minimalSupervision()"onmouseout="minimalSupervision()">MINIMAL SUPERVISION</button>
+          </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 octagon-three" id="octagon3">
+          <div class="button-three">
+            <button class="btn btn-team" id="btn-team" role=button  type="button" name="button" onmouseover="teamPlayer()"onmouseout="teamPlayer()">TEAMPLAYER</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          <br>
+
+<!--For Gallery -->
+          <div class="container" >
+          <div class="jumbotron">
+          <div class="strengths-bar">
+            <img  class="img-responsive" id="gallery" src="gal.jpg" alt="">
+          </div>
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="image1-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+            <img class="img-responsive image-one" src="image1.png" alt="">
+          </div>
+          <div class="col-sm-4">
+            <div class="image2-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+            <img class="img-responsive image-two" src="image2.jpeg" alt="">
+          </div>
+          <div class="col-sm-4">
+            <div class="image3-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+            <img class="img-responsive image-three" src="image3.jpg" alt="">
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="image4-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+              <img class="img-responsive image-four" src="image4.jpeg" alt="">
+          </div>
+          <div class="col-sm-4">
+              <div class="image5-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+            <img class="img-responsive image-five" src="image5.jpeg" alt="">
+          </div>
+          <div class="col-sm-4">
+                <div class="image6-content">
+              <p>I use will be a developer someday
+              using my passion and motivations!</p>
+            </div>
+            <img class="img-responsive image-six" src="image6.jpeg" alt="">
+          </div>
+          </div>
+          </div>
+          </div>
+          <br>
+
+<!--For slideshow why web dev-->
+          <div class="container">
+          <div class="jumbotron">
+          <div class="strengths-bar">
+            <img  class="img-responsive" src="why.jpg" alt="">
+          </div>
+          <div class="carousel slide" id="slide-show" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slide-show" data-slide-to="0"></li>
+                <li data-target="#slide-show" data-slide-to="1"></li>
+                <li data-target="#slide-show" data-slide-to="2"></li>
+            </ol>
+          <div class="carousel-inner">
+          <div class="item active">
+              <img src="slide4.jpg" alt="">
+          </div>
+          <div class="item ">
+              <img src="slide2.jpg" alt="">
+          <div class="carousel-caption caption2">
+            <h2 class="slide-msg"></h2>
+          </div>
+          </div>
+          <div class="item">
+            <img src="slide3.jpg" alt="">
+          <div class="carousel-caption caption3">
+            <h2 class="slide-msg"></h2>
+          </div>
+          </div>
+          </div>
+          <a  class="left carousel-control" href="#slide-show" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a  class="right carousel-control" href="#slide-show" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        </div>
+        </div>
+
+<!--For Contact-->
+        <div class="" id="contact">
+        <div class="container last-container">
+        <div class="row last-row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <form class="" action="index.html" method="post">
+        <div class="contact">
+          <h1>Contact</h1>
+        </div>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input class="form-control" type="text" name="name" value="">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input class="form-control" type="text" name="email" value="">
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact #:</label>
+          <input class="form-control" type="text" name="contact" value="">
+        </div>
+        <div class="form-group">
+        <label for="message">Message:</label>
+          <textarea class="form-control" name="message" rows="8" cols="80"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary btn-block active" type="button" name="button">Submit!</button>
+        </div>
+          </form>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+<!-- For Footer-->
+        <div class="navbar navbar-inverse footer">
+          <p>Copyright 2015 George's Portfolio 2017</p>
+          <p>Made with passion and motivations <span class="glyphicon glyphicon-thumbs-up"></span> </p>
+        </div>
+
+
+
+<!-- For Side bar -->
+        <div class="navbar navbar-default navbar-fixed-left icons">
+        <div class="left-arrow" id="leftleft">
+          <i class="fa fa-angle-double-left left-icon" aria-hidden="true" style="font-size:20px;" id="left-arrow" aria-hidden="true"></i>
+          <i class="fa fa-angle-double-right right-icon" aria-hidden="true" style="font-size:20px;display:none;" id="right-arrow" aria-hidden="true" ></i>
+        </div>
+        <div class=""id="left-side-bar">
+        <a href="#"><i class="fa fa-facebook icons1" style="font-size:20px;"  aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter icons1" style="font-size:20px;"  aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus icons1" style="font-size:20px;"  aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p icons1" style="font-size:20px;"  aria-hidden="true"></i></a>
+        </div>
+
+<script src="bsjs.js">
+
+
+</script>
+  </body>
+</html>
